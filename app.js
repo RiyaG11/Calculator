@@ -7,7 +7,7 @@ function Calculate() {
         outputScreen.value = eval(outputScreen.value);
     }
     catch (err) {
-        alert("Invalid")
+        outputScreen.value = "Invalid";
     }
 }
 function Clear() {
